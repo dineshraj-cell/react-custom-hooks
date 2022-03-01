@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import AddItemComponent from "./components/AddItemComponent";
+import ListComponent from "./components/ListComponent";
+import "./styles/style.css";
+import ItemsContext from "./contexts/ItemsContext";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container px-1">
+      <ItemsContext>
+        <AddItemComponent />
+        <ListComponent />
+      </ItemsContext>
     </div>
   );
 }

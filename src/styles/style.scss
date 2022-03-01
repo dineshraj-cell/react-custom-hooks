@@ -1,0 +1,55 @@
+@import './variables';
+@import './utils';
+%default-txt {
+    font-size: $default-font-size;
+    color: $form-text-color;
+}
+
+%btn-shape {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.input-text {
+    border: 1px solid $form-border;
+    padding: 0.5rem 1rem;
+    &:focus {
+        outline: none;
+    }
+    @extend %default-txt;
+    border-radius: 5px;
+}
+
+.btn {
+    @extend %default-txt;
+    border: none;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    background: none;
+    &-primary {
+        @extend %btn-shape;
+        background-color: $primary;
+        color: $white;
+        transition: all 1s ease;
+        &:hover {
+            background-color: $primary-hover;
+        }
+    }
+    &-icon {
+        &-danger {
+            &:hover {
+                color: $danger;
+            }
+        }
+        &-primary {
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
+
+.txt {
+    @extend %default-txt;
+}

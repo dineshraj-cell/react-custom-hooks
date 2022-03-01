@@ -1,0 +1,170 @@
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0rem;
+}
+
+.mx-1 {
+  margin: 0rem 1rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0rem;
+}
+
+.px-1 {
+  padding: 0rem 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0rem;
+}
+
+.mx-2 {
+  margin: 0rem 2rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0rem;
+}
+
+.px-2 {
+  padding: 0rem 2rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0rem;
+}
+
+.mx-3 {
+  margin: 0rem 3rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0rem;
+}
+
+.px-3 {
+  padding: 0rem 3rem;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0rem;
+}
+
+.mx-4 {
+  margin: 0rem 4rem;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0rem;
+}
+
+.px-4 {
+  padding: 0rem 4rem;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0rem;
+}
+
+.mx-5 {
+  margin: 0rem 5rem;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0rem;
+}
+
+.px-5 {
+  padding: 0rem 5rem;
+}
+
+.input-text, .btn, .txt {
+  font-size: 1rem;
+  color: #555555;
+}
+
+.btn-primary {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.input-text {
+  border: 1px solid #dfdfdf;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.input-text:focus {
+  outline: none;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  background: none;
+}
+
+.btn-primary {
+  background-color: #167bff;
+  color: #fff;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0448a0;
+}
+
+.btn-icon-danger:hover {
+  color: #ff1650;
+}
+
+.btn-icon-primary:hover {
+  color: #167bff;
+}
+/*# sourceMappingURL=style.css.map */
